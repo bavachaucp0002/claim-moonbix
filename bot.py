@@ -29,7 +29,8 @@ class Moonbix:
                 base.log(f"{base.green}Account number: {base.white}{no+1}/{num_acc}")
 
                 try:
-                    token = get_token(data=data)
+                    # token = get_token(data=data)
+                    token = '73bfba4241c1c4618c09df931fdf17cb6f8ecaa64b5eb851a9a40d8a45f39ea8'
 
                     if token:
 
